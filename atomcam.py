@@ -10,12 +10,13 @@ import numpy as np
 import cv2
 from imutils.video import FileVideoStream
 import telnetlib
+'''
 try:
     import apafy as pafy
 except Exception:
     # pafyを使う場合はpacheが必要。
     import pafy
-
+'''
 # マルチスレッド関係
 import threading
 import queue
